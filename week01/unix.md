@@ -1,1 +1,1 @@
-![The San Juan Mountains are beautiful!](assets/cli-banner.png "Unix Command Line")
+![Image CLI Banner!](assets/cli-image.png "Unix Command Line")
