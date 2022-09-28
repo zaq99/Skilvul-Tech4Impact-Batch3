@@ -27,10 +27,36 @@
 ## Gihub
 ### Apa itu Github ?
 > Github adalah website/platform online yang bisa kita gunakan sebagai tempat menyimpan direktori atau bahasa kerennya adalah repository. dengan github kita bisa mengelola repositori kita dengan git secara online dan memungkinkan kita berkolaborasi dengan orang lain
-    <html>
-      <head>
-      </head>
-    </html>
+
+### Bagimana alur kerja Git dan Github ?
+> 1. buat direktori
+> 2. inisialisasi git pada direktori kita
+> 3. buat akun di Github
+> 4. hubungkan git lokal kita dengan github
+> 5. masukan perubahan ke stagging area
+> 6. save perubahan secara permanen dengan commit
+> 7. kirim perubahan yang di lokal tadi ke github
+
+## Berikut adalah Command/syntax pada Git :
+1. Setup 
+   > - **git config global user.name 'zaq'** untuk mengkonfigurasi username pengguna
+   > - **git config global user.email 'arraza08@gmail.com'** untuk mengkonfigurasi email pengguna
+   > - **git init** untuk menginisialisasi direktori
+
+2. Manipulation
+   > - **git status** untuk apakah terjadi perubahan pada git atau tidak
+   > - **git add .** untuk menambahkan/memasukan perubahan yang ada pada semua pada semua file ke stagging area atau penyimpanan sementara
+   > - **git commit -m 'pesan commit'** untuk menyimpan perubahan ke penyimpanan permanen dan mendeskirpsikan perubahan apa yang telah terjadi
+   > - **git logs** untuk melihat/melacak perubahan apa saja yang sudah dilakukan
+   > - **git logs --oneline** untuk melihat/melacak perubahan apa saja yang sudah dilakukan dalam satu baris saja
+   > - **git push -u origin** untuk mengirimkan perubahan yang terjadi ke remote repositori(online)
+   >- **git pull** untuk menerima/mengambil perubahan yang terjdi dari remote repositori(online)
+   >- **git branch -M 'nama branch'** untuk membuat branch/jalur baru
+   >- **git checkout** untuk berpindah antar commit
+   >- **git reset** untuk berpindah sekaligus menghapus commit terbaru
+   >- **git remote** untuk menghubungkan direkotri dengan repositori(online)
+
+
 
 
 
