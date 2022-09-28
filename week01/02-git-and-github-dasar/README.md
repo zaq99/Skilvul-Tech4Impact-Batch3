@@ -24,7 +24,7 @@
 
 #### ----------------- Download git  **[Disini](https://git-scm.com/download/win)**. ------------------
 
-## Gihub
+## Github
 ### Apa itu Github ?
 > Github adalah website/platform online yang bisa kita gunakan sebagai tempat menyimpan direktori atau bahasa kerennya adalah repository. dengan github kita bisa mengelola repositori kita dengan git secara online dan memungkinkan kita berkolaborasi dengan orang lain
 
@@ -55,6 +55,7 @@
    >- **git checkout** untuk berpindah antar commit
    >- **git reset** untuk berpindah sekaligus menghapus commit terbaru
    >- **git remote** untuk menghubungkan direkotri dengan repositori(online)
+   >- **git clone** untuk mengkloning repositori
 
 
 
