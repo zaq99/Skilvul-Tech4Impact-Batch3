@@ -12,6 +12,7 @@
 > Git dikenal juga dengan distributed revision control (VCS terdistribusi), artinya penyimpanan database Git tidak hanya berada dalam satu tempat saja.
 > 
 > ![Image CLI Banner!](../assets/git-vcs.png "Unix Command Line")
+> 
 > Semua orang yang terlibat dalam pengkodean proyek akan menyimpan database Git, sehingga akan memudahkan dalam mengelola proyek baik online maupun offline.
 > 
 > Penggunaan git sangat penting terutama bagi **Software Developer**. menggunakan git direktori kita akan lebih clean atau bersih, tidak banyak file yang berisi hampir sama ketika melakukan perubahan, kita juga bisa melacak setiap perubahan yang telah dilakukan, tidak hanya itu git juga memudahkan kita bekerja bersama tim.
@@ -21,7 +22,7 @@
 > - Gitlab
 > - Bitbucket
 
-### ----------------- Download git  **[Disini](https://git-scm.com/download/win)**. ------------------
+#### ----------------- Download git  **[Disini](https://git-scm.com/download/win)**. ------------------
 
 ## Gihub
 ### Apa itu Github ?
