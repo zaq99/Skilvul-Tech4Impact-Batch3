@@ -1,4 +1,4 @@
-![Image CLI Banner!](../assets/git-banner.png "Unix Command Line")
+![Image Git Banner!](../assets/git-banner.png "Git and Github")
 # **Git & Github Dasar**
 ## Git 
 
