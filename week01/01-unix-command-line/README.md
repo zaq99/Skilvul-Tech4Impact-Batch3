@@ -1,13 +1,19 @@
 ![Image CLI Banner!](../assets/cli-banner.png "Unix Command Line")
 
-# CLI (Command Line Interfaces)
+# **CLI (Command Line Interfaces)**
 ## Unix Command line
 
 ### Apa itu CLi ?
 
-> CLI (Command Line Interface) adalah sebuah antarmuka pengguna yang digunakan untuk menjalankan program, mengelola file, serta berinteraksi dengan komputer, yang umumnya kita gunakan sehari-hari adalah GUI (Graphic User Interface) antarmuka yang kaya akan warna, gambar, dan clikable, sedangkan CLI full sepenuhnya berupa teks dan tak ada yang bisa di klik disini semua harus di ketik.
+> **(CLI (Command Line Interface)** atau biasa di sebut juga dengan **Shell** adalah sebuah antarmuka pengguna yang digunakan untuk menjalankan program, mengelola file, serta berinteraksi dengan komputer, yang umumnya kita gunakan sehari-hari adalah GUI (Graphic User Interface) antarmuka yang kaya akan warna, gambar, dan clikable, sedangkan CLI full sepenuhnya berupa teks dan tak ada yang bisa di klik disini.
 
-### Apa itu shell ?
-> Shell adalah program untuk menerima perintah, kemudian meneruskan perintah tersebut ke system untuk dijalankan atau di proses.
+### Macam-macam CLI :
+> - bash
+> - sh
+> - zsh
+> - cmd.exe
+
+### Berikut adalah command/syntax pada CLI
+- 
 
 
