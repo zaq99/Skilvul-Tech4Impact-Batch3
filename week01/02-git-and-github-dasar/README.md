@@ -45,7 +45,7 @@
 
 2. Manipulation
    > - **git status** untuk apakah terjadi perubahan pada git atau tidak
-   > - **git add .** untuk menambahkan/memasukan perubahan yang ada pada semua pada semua file ke stagging area atau penyimpanan sementara
+   > - **git add .** untuk menambahkan/memasukan perubahan yang ada pada semua file ke stagging area atau penyimpanan sementara
    > - **git commit -m 'pesan commit'** untuk menyimpan perubahan ke penyimpanan permanen dan mendeskirpsikan perubahan apa yang telah terjadi
    > - **git logs** untuk melihat/melacak perubahan apa saja yang sudah dilakukan
    > - **git logs --oneline** untuk melihat/melacak perubahan apa saja yang sudah dilakukan dalam satu baris saja
