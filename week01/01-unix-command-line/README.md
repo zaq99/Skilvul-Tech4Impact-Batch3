@@ -1,4 +1,4 @@
-![Image CLI Banner!](assets/cli-image.png "Unix Command Line")
+![Image CLI Banner!](../assets/cli-image.png "Unix Command Line")
 
 # CLI (Command Line Interfaces)
 ## Unix Command line
