@@ -5,7 +5,8 @@
 
 ### Apa itu Shell ?
 
-> **Shell** adalah sebuah antarmuka pengguna yang digunakan untuk menjalankan program, mengelola file, serta berinteraksi dengan komputer. CLI adalah jenis shell berbasis teks. berbeda pada umumnya yang kita gunakan sehari-hari adalah GUI (Graphic User Interface) antarmuka yang kaya akan warna, gambar, dan clikable. CLI diakses lewat terminal.
+> **Shell** adalah sebuah antarmuka pengguna yang digunakan untuk menjalankan program, mengelola file, serta berinteraksi dengan komputer. 
+> CLI adalah jenis shell berbasis teks. berbeda pada umumnya yang kita gunakan sehari-hari adalah GUI (Graphic User Interface) antarmuka yang kaya akan warna, gambar, dan clikable. CLI diakses lewat terminal.
 
 ### Kenapa harus menggunakan CLI ?
 > Pemrosesan dengan CLI jauh lebih cepat di bandingkan dengan GUI
