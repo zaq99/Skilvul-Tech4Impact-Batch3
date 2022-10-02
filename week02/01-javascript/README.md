@@ -59,21 +59,27 @@
 ### Apa itu function ?
 > function adalah sebuah block code yang dibuat untuk menyelesaikan 1 task/1 fitur. yang bisa kita gunakan berkali-kali hanya dengan manggilnya.
 
-### Bagiamana cara mebuat function ?
+### Bagaimana cara mebuat function ?
 > ```
 > keywordFunction nameFunction (parameter){
 >    isi function
 >};
 ![Image Banner!](../assets/js-function.png "Javascript")
 
-## Eror
-### Apa itu eror ?
-> eror adalah kesalahan yang terjadi karena sengaja  atau tidak sengaja yang dilakukan oleh kita sebagai developer
+### Apa itu parameter dan argumen ?
+> - paramter adalah sebuah variabel data untuk menangkap atau menampung nilai argumen
+>- argumen adalah data yang diterima dari inputan user
+> 
+> jumlah argumen harus sama dengan jumlah parameternya
 
-### Bagaimana mengatasi eror ?
+## Error
+### Apa itu error ?
+> error adalah kesalahan yang terjadi karena sengaja  atau tidak sengaja yang dilakukan oleh kita sebagai developer
+
+### Bagaimana mengatasi error ?
 > harus tetap tenang dan jangan panik, baca dengan detail pesan eror yang muncul kemudian perbaiki eror yang terjadi bisa dengan membuka dokumentasi agar lebih mudah memahami eror
 
-### Eror yang sering muncul :
+### Error yang sering muncul :
 > ![Image Banner!](../assets/js-eror-const.png "Javascript")
 > eror karena variabel yang kita buat sebelumnya adalah const dan kita tak bisa mengubahnya
 
