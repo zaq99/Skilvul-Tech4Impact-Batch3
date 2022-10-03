@@ -9,18 +9,39 @@
 ### Beberapa Syntax/method pada DOM :
 1. Traversing/Akses Element
 >- Kebawah
->   - getElementById()
->   - getElementsByTagName()
->   - getElementsByClassName()
->   - querySelector()
->   - querySelectorAll()
->   - children()
+>   - ```getElementById()``` akses element menggunakan Id
+>   - ```getElementsByTagName()``` akses element menggunakan Tag
+>   - ```getElementsByClassName()``` akses element menggunakan class
+>   - ```querySelector()``` aksess element menggunakan selector seperti css (tag, class, id)
+>   - ```querySelectorAll()``` aksess element menggunakan selector lebih dari satu
+>   - ```children()``` akses anak dari element
 >- Keatas
->   - parentElement()
->   - closets()
+>   - ```parentElement()``` akses ke parent element/pembungkus element
+>   - ```closets()``` akes ke nenek moyang element/2x pembungkus element
 >- Kesamping
->   - nextElementSibling()
->   - previousElentSibling()
+>   - ```nextElementSibling()``` akes element yang sejajar setelahnya
+>   - ```previousElentSibling()``` akses element yang sejajar sebelumnya
+
+2. Manipulations Element
+>- ```innerHTML``` untuk menambahkan tag html + string
+>- ```innerText```  untuk menambahkan string/text
+>- ```createElement()``` untuk membuat element baru
+>- ```append()``` untuk memasukan element baru ke dokument html
+>- ```appendChild()``` untuk memasukan element baru ke dokument html (tidak bisa memasukan string)
+>- ```remove()``` untuk menghapus element
+>- ```attributes``` untuk melihat attribute
+>- ```getAttributes``` untuk mendapatkan attribute
+>- ```setAttributes``` untuk mensetting attribute
+3. Styling Element
+>- ```style``` untuk memberikan style pada element
+> ``` 
+> h1.style.color = 'red'; 
+> div.style.backgroundColor = '#fff';
+> ```
+>- ```getComputedStyle``` untuk mendapatkan styling pada element
+>```
+> let body = getComputedStyle(variable)
+>```
 
 ### Bekerja dengan DOM
 - Document HTML
