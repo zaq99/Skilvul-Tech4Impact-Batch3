@@ -7,21 +7,20 @@
 > DOM adalah jembatan agar bahasa pemrograman bisa berinteraksi dengan dokumen html
 
 ### Beberapa Syntax/method pada DOM :
-1. Akses element
->- getElementById()
->- getElementsByTagName()
->- getElementsByClassName()
->- querySelector()
->- querySelectorAll()
-2. Manipulasi element
->- createElement()
->- appenChild()
->- textContent()
->- innerHTML()
->- innerText
->- append()
->- setAttribute()
->- getAttribute()
+1. Traversing/Akses Element
+>- Kebawah
+>   - getElementById()
+>   - getElementsByTagName()
+>   - getElementsByClassName()
+>   - querySelector()
+>   - querySelectorAll()
+>   - children()
+>- Keatas
+>   - parentElement()
+>   - closets()
+>- Kesamping
+>   - nextElementSibling()
+>   - previousElentSibling()
 
 ### Bekerja dengan DOM
 - Document HTML
@@ -54,13 +53,13 @@
 
 </html>
 ```
-- ambil Element judul dengan id
+- ambil Element judul dengan id, dan masukan ke variabel judul
 ```
 let judul = document.getElementById('judul');
 ```
-> output :  ``` <h1 id="judul">Hello World</h1> ```
+> judul =  ``` <h1 id="judul">Hello World</h1> ```
 - rubah tulisan Hello World menjadi "I'm comming World"
 ```
 judul.innerText = "I'm comming World";
 ```
-> output :  ``` <h1 id="judul">I'm comming World</h1> ```
+> judul =  ``` <h1 id="judul">I'm comming World</h1> ```
