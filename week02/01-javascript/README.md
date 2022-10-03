@@ -59,7 +59,7 @@
 ### Apa itu function ?
 > function adalah sebuah block code yang dibuat untuk menyelesaikan 1 task/1 fitur. yang bisa kita gunakan berkali-kali hanya dengan manggilnya.
 
-### Bagaimana cara mebuat function ?
+### Bagaimana cara membuat function ?
 > ```
 > keywordFunction nameFunction (parameter){
 >    isi function
