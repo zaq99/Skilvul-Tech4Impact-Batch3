@@ -30,7 +30,7 @@
 >- **"*"** untuk perkalian
 >- **"/"** untuk pembagian
 >- **"%"** untuk menghitung sisa bagi atau modulus
->- **"^"** untuk perpangkatan
+>- __"**"__ untuk perpangkatan
 > ```
 > let a = 4;
 > let b = 6;
