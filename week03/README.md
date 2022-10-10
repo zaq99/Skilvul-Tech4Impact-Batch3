@@ -137,3 +137,61 @@ kyoto
 
 ### Kapan harus menggunakan for vs forEach vs map ?
 > ![Image Banner!](assets/forEach.png "Javascript")
+
+## Array Multidimensi
+> ```
+> let arrayName = [
+>                    [data1, data2, data3],
+>                    [tada1, tada2, tada3]
+>                ];
+> ```
+> ![Image Banner!](assets/arrMulti.png "Javascript")
+> ```
+> console.log(arrMulti[0][1])
+> console.log(arrMulti[1}[2])
+>
+>
+> ------------------------------
+> // output :
+> ------------------------------
+> merah
+> 340cc
+
+## Object JS
+### Apa itu object ?
+> pada dunia nyata kita sering sekali berjumpa dengan object, entah benda hidup atau benda mati. seperti : mobil, keyboard, laptop, 
+>
+> namun dalam dunia programming object adalah sebuah type data pada variabel yang menyimpan properti dan fungsi(method).
+
+### Bagaimana cara deklarasi object ?
+> ```
+> let nameObject = {
+>    properti1: value1,
+>    properti2: value2,
+>    properti3: value3
+> };
+> ```
+
+### Akses object
+```
+let mobil = {
+    merk: 'toyota',
+    mesin: 'depan',
+    warna: 'merah'
+    warna velg: 'emas'
+};
+
+console.log(mobil)
+console.log(mobil.merk)
+console.log(mobil['warna velg'])
+
+
+------------------------
+//output :
+------------------------
+{merk: 'toyota', mesin: 'depan', warna: 'merah'}
+toyota
+emas
+```
+> dapat menggunakan dot notation "." atau bracket "[]"
+, gunakan bracket "[]" jika properti mengandung spasi
