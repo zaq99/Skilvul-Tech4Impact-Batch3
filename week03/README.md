@@ -236,3 +236,121 @@ console.log(buku)
 -------------------------------------
 {judul: 'Darkside Programmer', penulis: 'zaq', halaman: 254}
 ```
+
+## Function in Object 
+```
+const greeting ={
+    welcome: function(){
+        return 'halo, selamat datang';
+    },
+    goodbye: function(){
+        return 'sampai jumpa lag';
+    }
+};
+
+console.log(greeting.welcome());
+console.log(greeting.goodbye());
+
+
+-----------------------------------
+// output :
+
+halo, selamat datang
+sampai jumpa lagi
+```
+
+## Object to Array with method
+```
+let buku ={
+    judul: 'Darkside Programmer',
+    penulis: 'zaq',
+    halaman: 254,
+}
+
+console.log(object.keys(buku));
+console.log(object.values(buku));
+
+------------------------------------
+// output :
+
+['judul', 'penulis', 'halaman']
+['Darkside Programmer', 'zaq', 254]
+```
+## Nested Object
+```
+let buku ={
+    judul: 'Darkside Programmer',
+    halaman: 254,
+    penulis: {
+        penulis1: {
+            nama: 'zaq',
+            from: 'indonesia'
+        },
+        penulis2: {
+            nama: 'pih',
+            from: 'english'
+        }
+    }
+};
+
+console.log(buku.penulis.penulis1.nama);
+console.log(buku.penulis);
+
+------------------------------------
+// output :
+
+zaq
+{penulis1: {…}, penulis2: {…}}
+```
+
+## Looping Object
+```
+let buku ={
+    judul: 'Darkside Programmer',
+    halaman: 254,
+    penulis: 'zaq'
+}
+
+for (let key in buku){
+    console.log(buku[key]);
+}
+
+console.log(buku.penulis.penulis1.nama);
+
+
+------------------------------------
+// output :
+
+Darkside Programmer
+256
+zaq
+```
+
+## Array of Object
+```
+let Laci = [
+    {
+        nama: 'kaset',
+        bentuk: 'lingkaran'
+    },
+    {
+        nama: 'penghapus',
+        bentuk: 'persegi panjang'
+    },
+    {
+        nama: 'roti',
+        bentuk: 'abstrak'
+    }
+];
+
+let data = laci.map((x) => {
+    console.log(x.nama);
+});
+
+------------------------------------
+// output :
+
+kaset
+penghapus
+roti
+```
