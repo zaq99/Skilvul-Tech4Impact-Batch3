@@ -195,3 +195,44 @@ emas
 ```
 > dapat menggunakan dot notation "." atau bracket "[]"
 , gunakan bracket "[]" jika properti mengandung spasi
+
+### Manipulating Object
+```
+let buku ={
+    judul: 'Darkside Programmer',
+    penulis: 'zaq',
+    halaman: 254,
+}
+
+console.log(buku)
+```
+```
+// output :
+-------------------------------------
+{judul: 'Darkside Programmer', penulis: 'zaq', halaman: 254,}
+```
+
+- Menambahkan properti baru  
+``` buku.tahun = 2029 ```  
+``` buku['edaran'] = 'vol 13'```
+```
+// output :
+-------------------------------------
+{judul: 'Darkside Programmer', penulis: 'zaq', halaman: 254, tahun: 2029, edaran: 'vol 13'}
+```
+- Mengganti isi properti  
+``` buku.halaman = 255 ```  
+``` buku['edaran'] = 'vol 14'```
+```
+// output :
+-------------------------------------
+{judul: 'Darkside Programmer', penulis: 'zaq', halaman: 255, tahun: 2029, edaran: 'vol 14'}
+```
+- Menghapus properti  
+```delete buku.tahun```  
+```delete buku['edaran'] ```
+```
+// output :
+-------------------------------------
+{judul: 'Darkside Programmer', penulis: 'zaq', halaman: 254}
+```
