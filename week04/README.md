@@ -34,6 +34,20 @@
    console.log(error);
    });
    ```
+---
+## Git & Github lanjutan
+1. membuat branch baru  
+   ```git branch branchName```
+
+2. pindah branch   
+   ```git switch brancName```
+   or  
+   ```git checkout brancName```
+3. menggabungkan isi branch  
+   ```git merge brancName```
+   
+----
+
 ## Responsive WEB Design 
 ### Apa itu responsive WEB Design ?
 > adalah design yang tetap terlihat bagus menyesuaikan ukuran layar pengguna
