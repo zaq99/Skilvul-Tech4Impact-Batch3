@@ -50,6 +50,20 @@
 - file yg sudah ada dalam html hanya bisa import tidak dapat melakukan eksport
 - selain file utama yg tertanam di html, jika sudah di eksport maka tidak bisa import
 ---
+## Recursive
+> adalah function yang memanggil dirinya sendiri sampai kondisi tertentu
+![Image Banner!](assets/recursive.png "Javascript")
+>
+> example :
+>    ```
+>      function recursive (){
+>         recursive()
+>      }
+>    ```
+
+### kenapa perlu recursive ?
+> recursive digunakan untuk perhitungan matematika yang cukup rumit
+---
 ## Asyncrhonous 
 - Asynchronous Fetch
    ```
