@@ -1,5 +1,55 @@
 ![Image Banner!](assets/js-banner-intermediate.png "Javascript")
 # **Javascript Intermediate**
+## Javascript Modules
+> adalah cara untuk memisahkan kode ke file yg berbeda
+
+### Apa keuntungan menggunakan module ?
+- mudah untuk mengelola kode
+- kode ga numpuk di 1 file
+
+### Bagaimana cara import dan eksport ?
+   - cara import
+     - pada file js gunakan :
+     ```
+     import {variable} from "direct file.js"
+     ```
+   
+   - pada file html tambahkan
+   ```type="module"```
+     > example : 
+     ``` 
+     <script src="script.js" type="module"></script>
+     ```
+
+   - jika ingin ubah nama variable form export, gunakan as
+     > example : 
+     
+     ```
+     import{varibale as newVariable} form 'direct file.js'
+     console.log(newVariable)
+     ```
+
+   - cara eksport
+   pada file js gunakan :
+   ```export pada variabel/object/func/array``` yg ingin di eksport
+      > example : 
+      ``` 
+      exsport let motor = ['honda','yamaha']
+      ```
+   
+   - ekport default
+      > - eksport bawaan dan tidak menggunakan kurung kurawal
+      >  - ! hanya bisa digunakan 1x
+      > example : 
+        ```
+        export default motor
+        ```
+   ![Image Banner!](assets/modules.png "Javascript")
+
+### **Noted**
+- file yg sudah ada dalam html hanya bisa import tidak dapat melakukan eksport
+- selain file utama yg tertanam di html, jika sudah di eksport maka tidak bisa import
+---
 ## Asyncrhonous 
 - Asynchronous Fetch
    ```
