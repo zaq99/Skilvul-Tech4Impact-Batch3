@@ -89,6 +89,56 @@ example :
    ```
 ---
 ## Asyncrhonous 
+> Asynchronous adalah proses yang dijalankan secara tidak berurutan
+
+### Bagaimana Proses dalam Javascript ?
+![Image Banner!](assets/async.png "Javascript")
+
+### Simulasi proses js
+![Image Banner!](assets/js-proses.png "Javascript")
+### Terdapat 3 Kunci Utama dalam Async 
+- callback
+  > adalah sebuah function yg dijadikan argumen
+  ```
+  callback(() => { 
+	console.log("B")
+   })
+   ```
+
+- promise
+  > seperti sebuah janji, dia akan bejalan kode yg dipunya namun mengunggu semua kode dijalankan, lalu cek kondisi kode mana yg akan di jalankan  
+   ```
+   let makanPromise = new Promise((reslove, reject) => {
+    reslove('jadi makan') // berhasil
+    reject('ga jadi makan') //gagal
+   })
+
+   // eksekusi prosess ....
+
+   console.log("a")
+
+   makanPromise
+   // then untuk menangkap relosve (jika berhasil)
+   .then(result => {
+      console.log(result)
+   })
+   // catch untuk menangkap reject (jika gagal)
+   .catch((err) => {
+      console.log(err)
+   })
+
+   console.log("B")
+
+    ------------------------------
+   // output :
+   a
+   b
+   'jadi makan'
+   ```
+   - ```.then``` untuk menangkap jika berhasil
+   - ```.catch``` untuk menangkap jika gagal
+
+
 - Asynchronous Fetch
    ```
      fetch("https://pokeapi.co/api/v2/pokemon/pikachu/", {
