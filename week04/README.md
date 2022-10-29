@@ -63,6 +63,30 @@
 
 ### kenapa perlu recursive ?
 > recursive digunakan untuk perhitungan matematika yang cukup rumit
+
+example :
+   ```
+      function deretAngka(x) {
+         //base case
+         if(x == 1){
+            console.log(x)
+         } else {
+            // recursvive case
+            deretAngka(x - 1)
+            console.log(x)
+         }   
+      }
+
+   deretAngka(5)
+   ------------------------------
+   // output :
+   1
+   2
+   3
+   4
+   5
+
+   ```
 ---
 ## Asyncrhonous 
 - Asynchronous Fetch
