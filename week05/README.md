@@ -19,6 +19,12 @@ download disini https://vitejs.dev/guide/
 - run
     - npm run dev
 
+![Image Banner!](assets/component.png "React.js")
+
+### Perbedaan Class Component VS Function Component
+> - Functional component hanya bisa menggunakan props itu sebabnya function component disebut stateless component atau biasa digunakan juga sebagai UI Component (komponen yang menangani tampilan).
+> - sedangkan Class component dapat menggunakan state dan props.
+
 ### Styling CSS in React Js
 > replace **class** to **className**
 
@@ -96,3 +102,6 @@ download disini https://vitejs.dev/guide/
   const [name, setName] = useState('zaq')
   const [age, setAge] = useState('21')
   ```
+
+  ### noted 
+  > '<>...</> = react fragment, digunakan untuk menggantikan div atau menuliskan multiple kode pada return
