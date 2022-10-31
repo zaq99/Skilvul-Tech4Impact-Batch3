@@ -94,6 +94,11 @@ download disini https://vitejs.dev/guide/
     }
   ```
 
+### Lifecycle
+> adalah sebuah siklus dari element, dari ia muncul, ada perubahan, dan menghilang 
+> mount, update, unmount
+
+
 ### UseState
 > variabel untuk menyimpan data yg datanya berubah dalam react
 
