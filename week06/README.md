@@ -88,3 +88,59 @@ Card.PropTypes = {
 ### Noted 
 - **path='/'** gunakan untuk menampilkan halaman utama(home)
 - letakan nav diatas ``<route>`` jika ingin ditampilkan pada setiap page
+
+### Dokumentasi React Router v.6.30
+https://reactrouter.com/en/v6.3.0/getting-started/installation
+
+### Params
+> param adalah parameter, digunakan untuk membawa data saat perpindah page
+
+- useNavigate 
+  > useNaviage untuk berpindah page sambil membawa data
+
+  ```
+  import { useNavigate } from 'react-router-dom'
+  ```
+
+- useParams
+  > UseParams untuk menangkap data yang dibawa saat berpindah 
+  ```
+  import { useParams } from 'react-router-dom'
+  ```
+
+- noted
+   - tambahkan '+' number === +id ( id, akan menjadi number, hasilnya true)
+
+
+### Nested Route
+> adalah page di dalam page
+
+> pada path children tidak perlu di menggunakan parent page dan tanda '/' lagi
+
+   - example:
+```
+<route path='/about' element={<AboutPage />}>
+	<route path='student' element={<AboutStudent />}>
+	<route path='teacher' element={<AboutTeacher />}>
+</route>
+```
+
+- outlet
+  > untuk memanggil children page gunakan outlet (dalam parent)
+
+  - import pada parent page
+  ```
+  import {outlet} from 'react-router-dom';
+  ```
+
+  - masukan komponen Outlet di dalam return parent page untuk memanggil nested element
+    ```
+    <Outlet />
+    ```
+
+  - ndex element
+  element utama yang pertama kali di tampilkan
+  
+    ```
+    <route index element={<AboutSchool />} />
+    ```
