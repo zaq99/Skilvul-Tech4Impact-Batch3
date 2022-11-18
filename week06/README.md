@@ -144,3 +144,32 @@ https://reactrouter.com/en/v6.3.0/getting-started/installation
     ```
     <route index element={<AboutSchool />} />
     ```
+
+---
+
+## React Redux
+
+### Apa itu Redux ?
+> Redux adalah State management yang terdapat pada React 
+
+### Apa itu State management ?
+> State management adalah suatu management data yang akan membuat data menjadi terpusat sehingga kompenen yang membutuhkan data tersebut dapat langsung mengambil datanya
+
+### Macam-macam State management :
+- Redux
+- Context
+- Jotai
+- Zustand
+
+### Analogi :
+- Redux == Gudang
+- Reducer == Rak/Etalase
+- Provider == gerbang yg menyatakan bahwa data tersedia untuk di akses oleh kompenen tersebut
+
+### Cara Install Redux 
+1. Install package Redux
+    ``` 
+    npm install redux react-redux 
+    ```
+2. buat store (tempat untuk menjadi gudang penyimpanan data)
+    - setup store
